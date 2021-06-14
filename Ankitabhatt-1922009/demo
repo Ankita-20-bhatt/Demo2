@@ -1,0 +1,27 @@
+class student
+{
+int age;
+string course;
+student(int rollno,string name,int age,string course)
+{
+this.rollno=rollno;
+this.name=name;
+this.course;
+}
+void show()
+{
+system.out.println("enter rollno--"+rollno);
+system.out.println("enter name--"+name);
+system.out.println("enter student age--"+age);
+system.out.println("enter course--"+course);
+}
+}
+class Teststudent
+{
+public static void main(String[]args)
+{
+student st1=new
+student(09,"ankita",18"bscIT");
+st1.show();
+}
+}
